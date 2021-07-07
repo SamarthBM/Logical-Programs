@@ -19,7 +19,7 @@ public class FibonacciSeries {
 		System.out.println(x);
 		System.out.println(y);
 
-		for (int i = 1; i <= a - 2; i++) {
+		for (int i = 2; i<a; i++) {
 			result = x + y;
 			x = y;
 			y = result;
